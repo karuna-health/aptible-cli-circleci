@@ -10,3 +10,5 @@ RUN apt-get update \
     && dpkg -i aptible-cli.deb \
     && rm -rf /var/lib/apt/lists/* \
     && rm -f aptible-cli.deb
+
+RUN curl -sL https://sentry.io/get-cli/ | bash
