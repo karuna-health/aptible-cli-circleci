@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.6.3
+FROM circleci/ruby:2.6.3-node
 
 ENV URL "https://omnibus-aptible-toolbelt.s3.amazonaws.com/aptible/omnibus-aptible-toolbelt/master/176/pkg/aptible-toolbelt_0.16.1%2B20180730142012%7Edebian.8.10-1_amd64.deb"
 
